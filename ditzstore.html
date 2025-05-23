@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Jasa OTP</title>
+    <meta name="description" content="Jasa OTP adalah penyedia layanan OTP untuk semua aplikasi yang memerlukan verifikasi. Anda tidak perlu repot membeli kartu SIM baru, kami selalu siap 30x24 jam untuk Anda. Semuanya otomatis." />
+    <meta property="og:title" content="Login | Jasa OTP">
+    <meta property="og:description" content="Jasa OTP adalah penyedia layanan OTP untuk semua aplikasi yang memerlukan verifikasi. Anda tidak perlu repot membeli kartu SIM baru, kami selalu siap 30x24 jam untuk Anda. Semuanya otomatis.">
+    <meta property="og:image" content="https://ditznesia.id/img/sim-card.png">
+    <meta property="og:url" content="https://ditznesia.id/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jasa OTP">
+    <meta name="author" content="DITZNESIA">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ditznesia.id/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ditznesia.id/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ditznesia.id/img/favicon-16x16.png">
+    <link rel="stylesheet" href="https://ditznesia.id/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 bg-gray-100">
+    <div class="card shadow-sm" style="width: 350px;">
+        <div class="card-body p-4">
+            <div class="text-center">
+                <img src="https://ditznesia.id/img/logo.png" alt="Logo" width="100" class="mb-3">
+            </div>
+            <h2 class="card-title text-center mb-4">Login</h2>
+                        <form action="https://ditznesia.id/login" method="post">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <div class="position-relative">
+                        <input type="password" class="form-control" name="password" id="password" required>
+                        <i class="bi bi-eye-slash position-absolute end-0 top-50 translate-middle-y me-2" style="cursor: pointer;" onclick="togglePassword('password', this)"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+                <div class="text-center mt-3">
+                    <a href="https://ditznesia.id/reset-password" class="text-primary">Lupa Password?</a>
+                </div>
+            </form>
+            <p class="text-center mt-3">Belum punya akun? <a href="https://ditznesia.id/daftar/">Daftar di sini</a></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ditznesia.id/js/pw.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94424586e83d7156',t:'MTc0Nzk3OTM4My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
